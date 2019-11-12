@@ -12,4 +12,8 @@ def fish_count
   return @stomach.size
 end
 
+def roar
+  return "RARRRRRRR"
+end
+
 end

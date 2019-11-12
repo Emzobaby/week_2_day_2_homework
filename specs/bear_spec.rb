@@ -27,4 +27,8 @@ def test_fish_in_stomach
   assert_equal(0, @yogi_bear.fish_count)
 end
 
+def test_bear_can_roar
+  assert_equal("RARRRRRRR", @baby_bear.roar)
+end
+
 end
