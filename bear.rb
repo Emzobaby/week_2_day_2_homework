@@ -8,4 +8,8 @@ def initialize(name, type)
   @stomach = []
 end
 
+def fish_count
+  return @stomach.size
+end
+
 end

@@ -23,4 +23,8 @@ def test_get_bear_type
   assert_equal(:grizzly, @yogi_bear.type)
 end
 
+def test_fish_in_stomach
+  assert_equal(0, @yogi_bear.fish_count)
+end
+
 end
