@@ -22,4 +22,9 @@ def test_get_fish_count
   assert_equal(2, @amazon_river.fish_count)
 end
 
+def test_lose_fish
+  @amazon_river.lose_fish(@salmon_fish)
+  assert_equal(1, @amazon_river.fish_count)
+end
+
 end

@@ -16,4 +16,9 @@ def roar
   return "RARRRRRRR"
 end
 
+def eat_fish(river, fish_name)
+  river.lose_fish(fish_name)
+  @stomach << fish_name
+end
+
 end
